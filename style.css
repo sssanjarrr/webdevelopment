@@ -1,0 +1,63 @@
+
+h1{
+    text-align: center;
+    size: 50px;
+    border-bottom: 2px groove hotpink;
+    font-family: 'Lobster';
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.top_info {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Oswald";
+  text-align: justify;
+  border-bottom: 5px solid hotpink;
+}
+.top_info h1 {
+  margin: 20px auto;
+}
+.corporation {
+  margin: 40px 0px;
+  font-size: 50px;
+  text-align: center;
+  border-bottom: 10px groove hotpink;
+  font-family: "Lobster", sans-serif;
+}
+img {
+  width: 300px;
+  border-radius: 50%;
+}
+.our_team {
+  margin: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Lobster", sans-serif;
+}
+.our_team h1 {
+  margin: 20px 0px;
+  font-size: 52px;
+}
+.our_team_img {
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+.our_team_img div p {
+  margin: 10px 0px;
+  font-size: 20px;
+  font-family: "Oswald";
+}
